@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+body, h1 {
+    padding: 0;
+    margin: 0;
+}
+.box {
+    width: 610px;
+    padding: 20px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.titlebox {
+    text-align: right;
+}
+
+.name {
+    font-size: 26px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.job {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.about_me_text {
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+}
+
+.floatBox {
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.titleText {
+    float: left;
+}
+
+.yearText {
+    float: right;
+}
+
+.desText {
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    margin: 0;
+}
+
+.desSubtext {
+    font-size: 10px;
+    font-weight: normal;
+    color: gray;
+    padding-left: 10px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.sns {
+    text-align: right;
+}
+
+.snsImage {
+    width: 20px;
+    height: 20px;
+}
